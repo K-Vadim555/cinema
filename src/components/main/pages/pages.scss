@@ -261,7 +261,17 @@ color: #FFFFFF;
     align-items: center !important;
 }
         @media (max-width:480px) { 
-           
+            .css-vubbuv {
+                fill: #fff!important;
+                display: inline-block;
+                flex-shrink: 0;
+                font-size: 4vw!important;
+                height: 4vw!important;
+                transition: fill .2s cubic-bezier(.4,0,.2,1) 0ms;
+                -webkit-user-select: none;
+                user-select: none;
+                width: 4vw!important;
+            }
                 .ticet-get {
                     width: 100% !important;
                     height: 15vw !important;
