@@ -137,7 +137,7 @@ export default function Header(props) {
                 textTransform: 'uppercase',
          }} style={{
             zIndex:'10',
-            width:'22vw',
+            minWidth:'19vw',
             color:'white',
             backgroundColor:'transparent',
             border: 'none',
