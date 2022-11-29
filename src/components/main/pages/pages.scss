@@ -206,8 +206,7 @@ color: #FFFFFF;
             font-size: 2vw !important;
             fill: white !important
         }
-      
-         .public .css-1fx8m19.Mui-expanded {
+        .css-1fx8m19.Mui-expanded {
        
             border-radius: 51% !important;
             background-color: white !important;
@@ -215,9 +214,24 @@ color: #FFFFFF;
                 fill: rgb(0, 0, 0) !important
             }
       }
+      .header {
+       
+        .css-1fx8m19.Mui-expanded {
+       
+            border-radius: 51% !important;
+            background-color: transparent !important;
+            .css-vubbuv {
+                fill: rgb(255, 255, 255) !important
+            }
+      }
+      .css-1iji0d4 {
+        border: none !important;
+    border-radius: 2vw !important;
+}
+      }
       
       
-     .public .css-1iji0d4 {
+      .css-1iji0d4 {
         border: 1px solid white !important;
     border-radius: 2vw !important;
 }
