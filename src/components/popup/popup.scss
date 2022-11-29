@@ -1,0 +1,172 @@
+.contacts {
+    margin-top: 2vw;
+    position: relative;
+}
+.contact-title {
+   
+    display: flex;
+    justify-content: start;
+    font-size: 5vw !important;
+    margin-left: 7.8vw !important;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    color: white !important;
+}
+.a2 {
+    width: 7vw;
+    display: flex;
+    justify-content: start;
+    margin-left: 7.8vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.hin {
+  
+        position: absolute;
+        right: 0;
+        top: -12vw;
+        width: 25vw;
+        z-index: -2;
+}
+.iframe {
+    width: 100vw;
+    height: 100vw;
+}
+.tel-Manavi {
+    width: 25vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 3vw;
+    position: absolute;
+    top: 15vw;
+    left:10vw;
+    .title {
+        height: 1.5vw;
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 700;
+font-size: 2vw;
+margin-top: 0;
+text-align: center;
+margin-bottom:1.5vw ;
+color: #424141;
+    }
+    .second-title {
+       
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 700;
+font-size: 1.2vw;
+
+text-align: center;
+margin: 0;
+color: #aba9a9;
+margin-bottom: 1vw;
+    }
+}
+.icon1 {
+    display: flex;
+   
+    align-items: center;
+    height: 4vw;
+    img {
+        width: 1.5vw;
+        
+    }
+    .p {
+        
+        font-size: 1.3vw;
+        margin-left: 1vw;
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 500;
+align-items: center;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #424141;
+.css-4mzek5-MuiFormControl-root-MuiTextField-root {
+    margin: 0 auto !important;
+}
+    }
+}
+
+@media (max-width: 1024px) { 
+    .popup {
+        min-width: 30vw !important;
+    }
+    .modal-btn {
+        font-size: 1.5vw !important;
+    }
+}
+@media (max-width: 768px) { 
+    .popup {
+        min-width: 40vw !important;
+    }
+    .modal-btn {
+        font-size: 2vw !important;
+        height: 6vw !important;
+    }
+}
+@media (max-width: 480px) {
+    .popup {
+        min-width: 75vw !important;
+    }
+    .modal-btn {
+        font-size: 3vw !important;
+        height: 11vw !important;
+    }
+    .ww {
+        width: 25vw !important;
+        margin-top: 5vw ;
+    }
+    .iframe {
+        height: 55vw !important;
+    }
+    .tel-Manavi {
+        
+        width: 40vw;
+        padding: 5vw;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5vw;
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+        button {
+            border: 2px solid rgb(133, 36, 31);
+            border-radius: 55px;
+            font-family: "BPG Glaho";
+            font-style: normal;
+            font-weight: 400;
+            font-size : 2.5vw !important;
+            /* line-height: 30px; */
+            text-align: center;
+            margin: 1vw 0px 2vw;
+            color: rgb(66, 65, 65);
+            width: 40vw !important;
+            height: 8vw !important;
+           
+        }
+        .title {
+            font-size: 5vw;
+            line-height: 0;
+        }
+        .second-title {
+            margin-top: 3vw;
+            font-size: 2.5vw;
+            
+        }
+        .icon1 img {
+            width: 3vw;
+        }
+        .icon1 {
+            margin: 3vw 0;
+        }
+        .icon1 .p {
+            text-align: start;
+            font-size: 3vw;
+            line-height: 3vw;
+        }
+    }
+}

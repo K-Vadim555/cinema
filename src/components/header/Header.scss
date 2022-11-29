@@ -1,0 +1,136 @@
+$vw:1/1440px*100vw;
+ .header {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    padding:0 10vw;
+   
+background: linear-gradient(180deg, #080710 40.32%, rgba(19, 18, 32, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#080710), to(transparent));
+   
+    
+   
+    img {
+        width: 15vw;
+    }
+    .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+     
+        width: 3vw;
+        height: 3vw;
+     
+        color: rgb(255 255 255 / 54%);
+    }
+    .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+        border-bottom: 2px solid #ffffff;}
+ /*   .css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input {
+            padding-right: 24px;
+            
+            opacity: 1;
+            transform: none;
+            min-width: 216px;
+            transition: opacity 267ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 178ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            top: 31px;
+            left: 217px;
+            transform-origin: 108px 0px;
+    }
+    .css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+        padding-right: 24px;
+            
+        opacity: 1;
+        transform: none;
+        min-width: 216px;
+        transition: opacity 267ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 178ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        top: 31px;
+        left: 217px;
+        transform-origin: 108px 0px;
+    }*/
+}
+@media (max-width:480px) { 
+
+    .header {
+        .css-ywkvns-MuiButtonBase-root-MuiButton-root {
+          
+            font-size: 3.3vw;
+            color: blueviolet;
+            text-align: center;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 5vw;
+        }
+        .css-15v22id-MuiAccordionDetails-root {
+            font-size: 4vw;
+            line-height: 7vw;
+        }
+        .css-1ezp3dc {
+            padding: 3vw;
+        }
+        .page-acc-img {
+            width: 1.7vw;
+            margin: 0 2vw;
+            display: none;
+        }
+        .page-acc-title {
+            color: white;
+            font-size: 2.5vw !important;
+        }
+        .acc {
+            width: 15vw;
+            z-index: 20;
+            margin-top: 0;
+            padding-top: 0;
+            .css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+                border: none;
+            }
+         .css-o4b71y-MuiAccordionSummary-content {
+            width: 6vw !important;
+            display: flex;
+            justify-content: end;
+        
+         }
+        } .cc {
+            margin-top: .5vw;
+            width: 33vw;
+            p {
+                font-size: 2vw !important;
+            }
+        }
+        .img {
+            width: 35vw;
+            margin-top: 5vw;
+        }
+        .header-acc2 {
+            display: flex !important;
+        }
+        .header-acc {
+            width: 100%;
+            display: none !important;
+        }
+        .css-1v4tg1t-MuiTypography-root {
+            margin: 0;
+            font-family: "Roboto","Helvetica","Arial",sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5;
+            letter-spacing: 0.00938em;
+            font-size: 3.3vw!important;
+            font-style: normal;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            min-width: 52vw;
+            text-align: end;
+            text-transform: uppercase;
+            margin-top: 2vw;
+        }
+        .css-i4bv87-MuiSvgIcon-root {
+            fill: white !important;
+            -webkit-user-select: none;
+            user-select: none;
+            width: 6vw !important;
+            height: 6vw !important;
+        }
+    }
+}
+

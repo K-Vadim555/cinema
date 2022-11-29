@@ -1,0 +1,277 @@
+.page-acc-img {
+   width: 1.7vw;
+   margin: 0 2vw;
+}
+.page-acc-title{
+  color: white;
+  font-size: 1.3vw !important;
+  font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+
+text-transform: uppercase;
+/* identical to box height, or 67% */
+
+display: flex;
+align-items: center;
+
+
+}
+.css-15v22id-MuiAccordionDetails-root {
+    font-size: 1.3vw;
+  padding: 1.8vw !important;
+  color: white;
+}
+.acc {
+    margin: 1vw auto;
+    height: auto;
+    padding: 1vw;
+    p {
+        color: #FFFFFF;
+    }
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+         border: 1px solid #FFFFFF;
+    border-radius: 1vw !important;
+    background-color: transparent;
+    }
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+    min-height: 4vw !important; 
+    
+}
+} 
+.accordions {
+    margin-top: 7vw;
+    margin-left: 10vw;
+    
+    display: block;
+    width: 82vw;
+    padding: 2vw;
+    background: #150E14;
+    opacity: 0.9;
+    border-radius: 2vw !important;
+}
+
+.acc .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    background-color:#ffffff;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 1vw;
+    width: 2vw;
+    height: 2vw;
+    .css-i4bv87-MuiSvgIcon-root {
+            fill: rgb(0, 0, 0) !important;
+    }
+
+}
+.acc .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+    background-color:transparent;
+    border-radius: 50%;
+    border: 1.5px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 1vw;
+    width: 2vw;
+    height: 2vw;
+}
+.acc .css-i4bv87-MuiSvgIcon-root {
+    width: 2vw !important;
+    height: 2vw !important;
+}
+.vid {
+    position: static !important;
+    box-sizing: content-box;
+    padding: 1vw;
+    width: -webkit-fill-available;
+
+    border: 0;
+}
+.public {
+    display: flex;
+    margin: 2vw  auto;
+    width: 100%;
+    align-items: center;
+   position: relative;
+    background-size: cover;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 2vw ;
+    margin-bottom: 2vw;
+    height: 24vw;
+    .public-img {
+        width: 20vw;
+        margin: 0 2vw;
+    }
+    p {
+        color: #FFFFFF;
+        font-size: 1.3vw;
+        margin: 0 1vw;
+    }
+    .public-data {
+        font-family: 'Palanquin Dark', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+
+/* or 50% */
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-feature-settings: 'haln' on;
+
+
+    }
+    .public-data:first-child {
+        font-size: 4vw;
+    }
+}
+.fon {
+    width: 100%;
+}
+.public-fon {
+    position: absolute;
+    top: -4vw;
+    left: 18vw;
+    width: 88%;
+    height: 30vw;
+}
+.public-title {
+    font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw !important;
+margin-bottom: 2vw !important;
+
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+
+color: #DD7713 !important;
+
+}
+.cl {
+    color: rgb(96, 96, 96) !important;
+}
+.public span {
+    color: #FFFFFF !important;
+}
+.ticet-get {
+    width: 25vw ;
+    height: 5vw;
+    border: 2px solid #FFFFFF !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw !important;
+border-radius: 10px;
+cursor: pointer;
+text-decoration: none;
+color: #FFFFFF !important
+}
+.ticet-get1 {
+    width: 15vw;
+}
+.ticet-title {
+    font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+
+color: #DD7713 !important;
+
+}
+.ticet-content {
+    color: rgb(96, 96, 96) !important;
+    margin:  1vw 0; 
+    span {
+        color: #FFFFFF !important;
+    }
+} 
+.rasp {
+   
+    display: flex;
+    justify-content: space-around; 
+    p {
+        font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5vw;
+margin: 2vw;
+margin-top: 0;
+margin-left: 0;
+
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+
+color: #DD7713;
+
+    }
+    .sec1 {
+        img {
+            width: 95%;
+        }
+    }
+    .sec2 {
+        
+        img {
+            width: 95%;
+        }
+    }
+}
+.hotel {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    .hotel-logo {
+        width: 35vw;
+    height: 30vw;
+    }
+    div {
+        margin: 1vw;
+    }
+    .title1 {
+        font-family: 'Palanquin Dark';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+margin: 1vw 0;
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+
+color: #DD7713;
+
+    }
+    .content1 {
+        font-size: 1.3vw;
+    } 
+   
+}
+.get-hotel {
+    .ticet-get{
+        width: 25vw ;
+    }
+    .photos {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        margin: 1vw 0;
+        flex-wrap: wrap;
+        img {
+            width: 22%;
+            margin: 1vw;
+        }
+    }
+}
