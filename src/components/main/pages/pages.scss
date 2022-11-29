@@ -261,6 +261,13 @@ color: #FFFFFF;
     align-items: center !important;
 }
         @media (max-width:480px) { 
+            .css-mfs5wp {
+                width: 10vw !important;
+                min-width: 3vw;
+                padding: 1vw;
+                font-size: 4vw !important;
+            }
+            
             .css-vubbuv {
                 fill: #fff!important;
                 display: inline-block;
