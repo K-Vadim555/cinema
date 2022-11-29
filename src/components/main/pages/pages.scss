@@ -215,7 +215,9 @@ color: #FFFFFF;
             }
       }
       .header {
-       
+        .css-u7qq7e {
+            padding: 0 !important;
+        }
         .css-1fx8m19.Mui-expanded {
        
             border-radius: 51% !important;
@@ -233,7 +235,27 @@ color: #FFFFFF;
       
       .css-1iji0d4 {
         border: 1px solid white !important;
-    border-radius: 2vw !important;
+    border-radius: 1vw !important;
+}
+.css-17o5nyn.Mui-expanded {
+     margin: 0px !important; 
+     min-height: 6vw !important;
+}
+
+
+.css-17o5nyn {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+     margin:  0px !important; 
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-1iji0d4.Mui-expanded {
+    min-height: 6vw !important;
+}
+.css-17o5nyn {
+    display: flex;
+    align-items: center !important;
 }
         @media (max-width:480px) { 
            
