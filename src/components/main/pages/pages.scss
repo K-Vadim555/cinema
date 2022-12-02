@@ -242,7 +242,7 @@ color: #FFFFFF;
 }
 .css-17o5nyn.Mui-expanded {
      margin: 0px !important; 
-     min-height: 6vw !important;
+     min-height: 5vw !important;
 }
 
 
@@ -254,7 +254,7 @@ color: #FFFFFF;
     transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .css-1iji0d4.Mui-expanded {
-    min-height: 6vw !important;
+    min-height: 5vw !important;
 }
 .css-17o5nyn {
     display: flex;
@@ -273,6 +273,9 @@ color: #FFFFFF;
             border-radius: 1vw !important;
           
         }
+    }
+    .css-67l5gl.Mui-expanded {
+        margin:  0px !important;
     }
         @media (max-width:480px) { 
             .css-mfs5wp {
