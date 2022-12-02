@@ -38,5 +38,8 @@
      " 650 рублей":"650 rubles",
      "ЗАБРОНИРОВАТЬ":"BOOK NOW",
      "Имя":"Name",
-     "E-mail":"E-mail"
-}
+     "E-mail":"E-mail",
+     "Кол-во человек":"Number of people",
+     "Сообщение":"Message",
+     "Отправить":"Send"
+}    

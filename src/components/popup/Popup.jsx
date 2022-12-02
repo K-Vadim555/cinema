@@ -162,7 +162,7 @@ export const Popup = ({buttonText,className}) => {
           m=' 0 auto'
          
            
-           label='Кол-во человек'
+           label={t('Кол-во человек')}
            type='email'
            required
            
@@ -178,7 +178,7 @@ export const Popup = ({buttonText,className}) => {
           multiline
           minRows={3}
           
-           label='Сообщение'
+           label= {t('Сообщение')}
            type='text'
            required
            
@@ -207,7 +207,7 @@ export const Popup = ({buttonText,className}) => {
                   height:"4vw",
                   background:'red'
 
-              }}>Отправить</Button>
+              }}>{t('Отправить')} </Button>
           </form>
           {nam}
           
