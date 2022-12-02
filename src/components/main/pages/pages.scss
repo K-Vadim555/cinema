@@ -264,6 +264,16 @@ color: #FFFFFF;
     padding: 2vw !important;
    
 }
+.accordions {
+   
+    border-radius: 2vw !important;
+        .acc {
+        
+            border: 1px solid #fff!important;
+            border-radius: 1vw !important;
+          
+        }
+    }
         @media (max-width:480px) { 
             .css-mfs5wp {
                 width: 10vw !important;
@@ -413,6 +423,7 @@ color: #FFFFFF;
                     .acc {
                         margin: 5vw 0;
                         border: 1px solid #fff!important;
+                        border-radius: 1vw !important;
                         .css-i4bv87-MuiSvgIcon-root {
                 width: 10vw !important;
                 height: 4vw !important;
