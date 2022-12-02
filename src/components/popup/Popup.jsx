@@ -132,7 +132,7 @@ export const Popup = ({buttonText,className}) => {
           m=' 0 auto'
          
            
-           label='Имя'
+           label={t('Имя')}
            type='name'
            required
            
@@ -147,7 +147,7 @@ export const Popup = ({buttonText,className}) => {
           m=' 0 auto'
          
            
-           label='E-mail'
+           label={t('E-mail')}
            type='email'
            required
            
